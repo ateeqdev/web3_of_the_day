@@ -1,6 +1,6 @@
 # Web3 Of The Day
 
-Blockchain can seem like a complex thing to understand. As it is often described as the future of web, there is no way to ignore it. We cannot expect ourselves to learn it overnight. The best is to keep learning small things consistently. This repository contains one new thing I learned about web 3 today
+Understnading blockchain can seem like a complex task. As it is often described as the future of web, there is no excuse to ignore it. We cannot expect ourselves to learn it overnight. The best is to keep learning small things consistently. This repository contains one new thing I learned about web 3 today
 
 Join me in this journey by starring this repository.
 
