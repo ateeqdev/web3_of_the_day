@@ -4,6 +4,10 @@ Understnading blockchain can seem like a complex task. As it is often described 
 
 Join me in this journey by starring this repository.
 
+#### Jan 6, 2022
+
+Inputs to the Bitcoin network are cryptographically hashed with SHA-256 and the output is hashed again. This is done to ensure the integrity of data over network.
+
 #### Jan 5, 2022
 
 In January 2018, Coincheck (a cryptocurrency exchange) was hacked and approximately 500 million NEM tokens ($530 million) were stolen
