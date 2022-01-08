@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 8, 2022
+
+OP_RETURN before the output script can halt the transaction and bitcoins in that transaction cannot be spent later on. You can write some words after that as well that are permanently written in history. I believe this is the birthplace of NFTs.
+
 #### Jan 7, 2022
 
 Proof of work is finding a hash vale that is lesser than a target. Mining means trying as many entries as one can to find that hash.
