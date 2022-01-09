@@ -2,6 +2,11 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 9, 2022
+
+P2PKH: Pay to Public Key Hash. Customer pays to the address of vendor (most commonly used).
+P2SH: Pay to Script Hash. Customer pays to the hash of script provided by the vendor (more flexible).
+
 #### Jan 8, 2022
 
 OP_RETURN before the output script can halt the transaction and bitcoins in that transaction cannot be spent later on. You can write some words after that as well that are permanently written in history. I believe this is the birthplace of NFTs.
