@@ -2,6 +2,13 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 13, 2022
+
+Mining Pools: Pay-per-share schemes will pay you a fixed amount of money for each near-valid block regardless of how much reward the pool makes. There’s no incentive for a miner to actually submit valid blocks
+Proportional schemes pay out only when a block is found. The reward of each miner is proportional to the number of shares submitted before the block was found.
+Pool hopping: A miner hops to the most profitable pool as they see fit.
+Pool Cannibalization: A miner distributes small amounts of their power among pay per share pools, they don't do the work and submit valid blocks but they get rewarded.
+
 #### Jan 12, 2022
 
 Changes to the Bitcoin protocol come in the form of BIPs (Bitcoin Improvement Proposals). The miners vote for a particular bip by referencing it in their block. The first BIP was submitted by Amir Taaki to propose bips.
