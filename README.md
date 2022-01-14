@@ -2,6 +2,12 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 14, 2022
+
+Punitive Forking is censorship of an account by a majority pool (51% mining power).
+Feather Forking is using much less than 50% power to convince other miners not to process transaction by a valid account.
+Selfish Mining is finding more than one blocks earlier than the rest of the network and keeping them secret until the honest chain has not found equal or more blocks. Releasing after that will make the melicious chain the longest and the honest one as invalidated.
+
 #### Jan 13, 2022
 
 Mining Pools: Pay-per-share schemes will pay you a fixed amount of money for each near-valid block regardless of how much reward the pool makes. There’s no incentive for a miner to actually submit valid blocks
