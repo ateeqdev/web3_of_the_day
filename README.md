@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 15, 2022
+
+In bitcoin, uncle blocks are created when more than one child blocks are created in parallel from the same block.
+
 #### Jan 14, 2022
 
 Punitive Forking is censorship of an account by a majority pool (51% mining power).
