@@ -2,9 +2,13 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 16, 2022: UTXO: Bitcoin vs Ethereum
+
+Bitcoin is UTXO based, Ethereum is account based.
+
 #### Jan 15, 2022
 
-In bitcoin, uncle blocks are created when more than one child blocks are created in parallel from the same block.
+In bitcoin, uncle blocks are created when more than one child blocks are created in parallel from the same block. They are mined at around the same time and compete for the acceptance among the network.
 
 #### Jan 14, 2022
 
