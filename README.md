@@ -2,9 +2,16 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 17, 2022: Ethereum Smart Contract Languages
+
+Ethereum Smart Contracts are written in high level programming languages  
+The two most active and maintained languages for Ethereum Smart Contracts are:  
+Solidity (looks like a mixture of C++ & Javascript)  
+Vyper (a relatively newer language)
+
 #### Jan 16, 2022: UTXO: Bitcoin vs Ethereum
 
-Bitcoin is UTXO based, Ethereum is account based.
+Bitcoin is UTXO based, Ethereum is account based. Accounts can be controlled externally (personal or organizational), or by a smart contract
 
 #### Jan 15, 2022
 
