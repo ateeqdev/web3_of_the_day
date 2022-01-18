@@ -2,6 +2,16 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 18, 2022: Ethereum Infinity Loops
+
+Can a smart contract jeopardize eth network with an infinite loop?  
+Yes, and no
+The sender tells what is the maximum he can spend (startgas) and the fee per unit for that(gasprice).  
+The upper bound is startgas \* gasprice. This incentivizes miners to execute the code.  
+If code gets executed before the upper bound, the remaining ethers are added back to sender's account.  
+If the gas is consumed before the execution was finished, the smart contract is halted.  
+A sender can jeopardize the network but he must be willing to spend huge amount.
+
 #### Jan 17, 2022: Ethereum Smart Contract Languages
 
 Ethereum Smart Contracts are written in high level programming languages  
