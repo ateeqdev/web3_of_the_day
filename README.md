@@ -2,6 +2,14 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 19, 2022: CAP Theorem of Distributed Systems
+
+Blockchain is a form of distribution system.  
+CAP Theorem is the famous Trilemma of distributed systems by Eric Brewer  
+C: Consistency, Every node must provide it's most recent state  
+A: Availability, Every node has content read & write access  
+P: Partition Tolerance, Partition means inability of two or more nodes to communicate with each other
+
 #### Jan 18, 2022: Ethereum Infinity Loops
 
 Can a smart contract jeopardize eth network with an infinite loop?  
