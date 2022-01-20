@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 19, 2022: Byzantine Nodes
+
+It is impossible to achieve consensus with just 1/3 or malicious nodes
+
 #### Jan 19, 2022: CAP Theorem of Distributed Systems
 
 Blockchain is a form of distribution system.  
