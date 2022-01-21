@@ -2,9 +2,15 @@
 
 A fun fact or technical aspect of blockchain a day.
 
-#### Jan 19, 2022: Byzantine Nodes
+#### Jan 21, 2022: Paxos vs Raft
 
-It is impossible to achieve consensus with just 1/3 or malicious nodes
+Paxos is a consensus algorithm. It is hard to understand and later, Raft was proposed.
+
+Paxos vs Raft: Raft only allows servers with up-to-date logs to become leaders, whereas Paxos allows any server to be leader provided it then updates its log to ensure it is up-to-date.
+
+#### Jan 20, 2022: Byzantine Nodes
+
+It is impossible to achieve consensus with just 1/3 of malicious nodes
 
 #### Jan 19, 2022: CAP Theorem of Distributed Systems
 
