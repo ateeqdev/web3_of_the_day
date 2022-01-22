@@ -2,6 +2,11 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 22, 2022: Traditional vs Nakamoto Concensus
+
+Classical literaure consensus: Require explicit votes from nodes  
+Nakamoto consensus: Users expend some resource for a chance to make an update to the system
+
 #### Jan 21, 2022: Paxos vs Raft
 
 Paxos is a consensus algorithm. It is hard to understand and later, Raft was proposed.
