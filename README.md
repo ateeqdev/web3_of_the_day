@@ -2,6 +2,11 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 23, 2022: Ethereum: Proof of Stake
+
+A single Ethereum transaction consumes equal power as of 140,000 Visa transactions.  
+Ethereum is planning to shift from Proof of Work to Proof of Stake in June 2022. That will reduce the energy consumption by 99.95%.
+
 #### Jan 22, 2022: Traditional vs Nakamoto Concensus
 
 Classical literaure consensus: Require explicit votes from nodes  
