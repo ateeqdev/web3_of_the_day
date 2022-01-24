@@ -2,7 +2,15 @@
 
 A fun fact or technical aspect of blockchain a day.
 
-#### Jan 23, 2022: Ethereum: Proof of Stake
+#### Jan 24, 2022: Ethereum: Proof of Stake
+
+Anyone can become a validator by submitting 32 ethers.  
+When a new block needs to be added, A validator will be randomly selected.  
+The other candidates can become attestors. They tell that validator's block looks good to them.  
+Once a block has at least 128 attestations, it will be part of the ledger.  
+The reward will be shared among validator as well as attestors.
+
+#### Jan 23, 2022: Ethereum: Proof of Stake: Energy Consumption
 
 A single Ethereum transaction consumes equal power as of 140,000 Visa transactions.  
 Ethereum is planning to shift from Proof of Work to Proof of Stake in June 2022. That will reduce the energy consumption by 99.95%.
