@@ -2,6 +2,15 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 26, 2022: Tendermint
+
+Weakly synchronous PBFT consensus protocol  
+3 Phases of PBFT  
+Propose  
+Precommit  
+Commit  
+Every stage requires 2/3 votes of validators who are chose based on their economic stake in the crypto
+
 #### Jan 25, 2022: Dogecoin: Proof of Burn
 
 More bitcoins you burn, more likely your block will be selected.
