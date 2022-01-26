@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 25, 2022: Dogecoin: Proof of Burn
+
+More bitcoins you burn, more likely your block will be selected.
+
 #### Jan 24, 2022: Ethereum: Proof of Stake
 
 Anyone can become a validator by submitting 32 ethers.  
