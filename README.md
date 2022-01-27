@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 27, 2022: Libra CryptoCurrency
+
+Facebook's libra cryptocurrency is based on HotStuff consensus protocol.
+
 #### Jan 26, 2022: Tendermint
 
 Weakly synchronous PBFT consensus protocol  
