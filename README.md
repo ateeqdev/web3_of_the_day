@@ -2,6 +2,15 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 28, 2022: Tendermint's Polka
+
+Tendermint Consensus selects a validator in round robin fashion.  
+The validator with most stake is chosen first, then 2nd and son.  
+A validator proposes a block gets votes in two phases.  
+Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
+If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
+2/3rd of the votes is called Polka.
+
 #### Jan 27, 2022: Libra CryptoCurrency
 
 Facebook's libra cryptocurrency is based on HotStuff consensus protocol.
