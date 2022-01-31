@@ -2,6 +2,27 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Jan 31, 2022: Tendermint's Polka
+
+Tendermint Consensus selects a validator in round robin fashion.  
+The validator with most stake is chosen first, then 2nd and son.  
+A validator proposes a block gets votes in two phases.  
+Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
+If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
+2/3rd of the votes is called Polka.
+
+#### Jan 31, 2022: Quorum Slice
+
+In FBA systems, a subset of network reaches consensus by selecting a selected nodes to trust. These selected nodes are called quorum slices. These slices then reach the consensus among themselves and so does the system.
+
+#### Jan 30, 2022 (L): Federated Byzantine Agreement (FBA)
+
+Nodes can choose who to trust, enabling system-wide quorums through individual nodes.
+
+#### Jan 29, 2022 (L): Eth Ice Age
+
+Ethereum has a built-in mechanism to increase difficulty so that when Eth 2.0 is launched, everyone is forced to implement that upgrade. The mechanism is called Difficulty Bomb and when it is launched, it will be Ice Age of the nework.
+
 #### Jan 28, 2022: Tendermint's Polka
 
 Tendermint Consensus selects a validator in round robin fashion.  
