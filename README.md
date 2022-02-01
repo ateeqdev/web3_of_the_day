@@ -11,6 +11,11 @@ Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
 If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
 2/3rd of the votes is called Polka.
 
+#### Fab 1, 2022: RAFT Leader
+
+How to be the leader in RAFT Consensus?  
+Be the first one to tell that the leader is offline.
+
 #### Jan 31, 2022: Quorum Slice
 
 In FBA systems, a subset of network reaches consensus by selecting a selected nodes to trust. These selected nodes are called quorum slices. These slices then reach the consensus among themselves and so does the system.
