@@ -11,6 +11,13 @@ Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
 If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
 2/3rd of the votes is called Polka.
 
+#### Fab 2, 2022: Why POS is not mainstream?
+
+POS is disadvantageous in following ways:
+
+1. Rich becomes richer
+2. To corrupt the network, merely 33% of voting power is required, whereas PoW needs 51%
+
 #### Fab 1, 2022: RAFT Leader
 
 How to be the leader in RAFT Consensus?  
