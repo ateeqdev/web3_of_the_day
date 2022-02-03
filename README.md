@@ -2,14 +2,11 @@
 
 A fun fact or technical aspect of blockchain a day.
 
-#### Jan 31, 2022: Tendermint's Polka
+#### Fab 3, 2022: PoS: Nothing at Stake Attack
 
-Tendermint Consensus selects a validator in round robin fashion.  
-The validator with most stake is chosen first, then 2nd and son.  
-A validator proposes a block gets votes in two phases.  
-Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
-If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
-2/3rd of the votes is called Polka.
+Unlike Proof of Work, Proof of Stake doesn't have a physical scarce resource tied to an eligible node.  
+In case of forks, the Proof of Work incentivizes to vote on fork that has the biggest chance to win.  
+In Proof of Stake, a node can vote on multiple forks to maximize their profit, resulting in parallel chains of unresolved forks.
 
 #### Fab 2, 2022: Why POS is not mainstream?
 
@@ -23,9 +20,14 @@ POS is disadvantageous in following ways:
 How to be the leader in RAFT Consensus?  
 Be the first one to tell that the leader is offline.
 
-#### Jan 31, 2022: Quorum Slice
+#### Jan 31, 2022: Tendermint's Polka
 
-In FBA systems, a subset of network reaches consensus by selecting a selected nodes to trust. These selected nodes are called quorum slices. These slices then reach the consensus among themselves and so does the system.
+Tendermint Consensus selects a validator in round robin fashion.  
+The validator with most stake is chosen first, then 2nd and son.  
+A validator proposes a block gets votes in two phases.  
+Pre Commit and Commit, each requiring 2/3 or more votes (called polka)
+If a node rejects the proposal or doesn't respond, it's vote is considered nil.  
+2/3rd of the votes is called Polka.
 
 #### Jan 30, 2022 (L): Federated Byzantine Agreement (FBA)
 
