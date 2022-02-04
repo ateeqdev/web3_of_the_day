@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Fab 4, 2022 (Day 32): Soulbound NFTs
+
+Non-transferable non fungible tokens, which are bound to a person. e.g. Driver's license
+
 #### Fab 3, 2022: PoS: Nothing at Stake Attack
 
 Unlike Proof of Work, Proof of Stake doesn't have a physical scarce resource tied to an eligible node.  
