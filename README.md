@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Fab 5, 2022 (Day 33): Stake Grinding Attack
+
+In Proof of Stake, change the block to maximize the chances of being selected as the next validator
+
 #### Fab 4, 2022 (Day 32): Soulbound NFTs
 
 Non-transferable non fungible tokens, which are bound to a person. e.g. Driver's license
