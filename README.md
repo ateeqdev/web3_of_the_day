@@ -2,6 +2,10 @@
 
 A fun fact or technical aspect of blockchain a day.
 
+#### Fab 6, 2022 (Day 34): Vermont Accepts Blockchain Data
+
+Blockchain data is representative of real data and facts, permissible in courts in Vermont.
+
 #### Fab 5, 2022 (Day 33): Stake Grinding Attack
 
 In Proof of Stake, change the block to maximize the chances of being selected as the next validator
