@@ -1,6 +1,10 @@
 # Web3 Of The Day
 
-A fun fact or technical aspect of blockchain a day.
+One thing dumb or too technical about blockchain daily
+
+#### Fab 7, 2022 (Day 35): Sweden, Crypto and Scrap
+
+In Sweden, it is illegal to buy scrap metal, or other waste products through cryptocurrencies.
 
 #### Fab 6, 2022 (Day 34): Vermont Accepts Blockchain Data
 
