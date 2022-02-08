@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 8, 2022 (Day 36): Mainnet ETH
+
+Mainnet is the primary public Ethereum production blockchain, where actual-value transactions occur on the distributed ledger.  
+
 #### Fab 7, 2022 (Day 35): Sweden, Crypto and Scrap
 
 In Sweden, it is illegal to buy scrap metal, or other waste products through cryptocurrencies.
