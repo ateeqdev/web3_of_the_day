@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 9, 2022 (Day 36): BTC: Faster Block Time
+
+With the faster block times, it’s more likely that any given block be orphaned because more people find solutions at the same time.  
+As a miner, you’re much better off withholding blocks, and building your own chain, and publishing later.
+
 #### Fab 8, 2022 (Day 36): Mainnet ETH
 
 Mainnet is the primary public Ethereum production blockchain, where actual-value transactions occur on the distributed ledger.  
