@@ -2,7 +2,12 @@
 
 One thing dumb or too technical about blockchain daily
 
-#### Fab 9, 2022 (Day 36): BTC: Faster Block Time
+#### Fab 10, 2022 (Day 38): Web3 Unicorns this year
+
+There have been 40 new crypto unicorns this year (in 41 days).  
+Investors have poured $30 billion dollars in crypto startups.
+
+#### Fab 9, 2022 (Day 37): BTC: Faster Block Time
 
 With the faster block times, it’s more likely that any given block be orphaned because more people find solutions at the same time.  
 As a miner, you’re much better off withholding blocks, and building your own chain, and publishing later.
