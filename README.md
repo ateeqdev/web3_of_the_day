@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 11, 2022 (Day 39): Why Bitcoin is not mainstream?
+
+It takes almost an hour for a transaction to be verified  
+Transaction fee is inconsistent. Ranging from a couple of cents to dozens of dollars
+
 #### Fab 10, 2022 (Day 38): Web3 Unicorns this year
 
 There have been 40 new crypto unicorns this year (in 41 days).  
