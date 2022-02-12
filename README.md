@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 12, 2022 (Day 40): Hashed TimeLock Contracts (HTLCs)
+
+Special type of smart contract where receivers have to enter the passphrase and claim the payment.  
+If they don't claim within a specified timeframe, they loose the funds.
+
 #### Fab 11, 2022 (Day 39): Why Bitcoin is not mainstream?
 
 It takes almost an hour for a transaction to be verified  
