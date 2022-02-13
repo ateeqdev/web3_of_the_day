@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 13, 2022 (Day 41): Lightning Network Scalability
+
+Lightning network can enable bitcoin to handle 10,000s of transactions per second (tps), the default of which is 3.
+
 #### Fab 12, 2022 (Day 40): Hashed TimeLock Contracts (HTLCs)
 
 Special type of smart contract where receivers have to enter the passphrase and claim the payment.  
