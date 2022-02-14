@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 14, 2022 (Day 42): Raiden Network
+
+Raiden is a smart contract for off-chain scaling. It enables low-fee, and instant ether transfer between nodes. 
+
 #### Fab 13, 2022 (Day 41): Lightning Network Scalability
 
 Lightning network can enable bitcoin to handle 10,000s of transactions per second (tps), the default of which is 3.
