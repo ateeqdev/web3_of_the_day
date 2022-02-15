@@ -2,9 +2,9 @@
 
 One thing dumb or too technical about blockchain daily
 
-#### Fab 14, 2022 (Day 42): Raiden Network
+#### Fab 14, 2022 (Day 42): Sharding
 
-Raiden is a smart contract for off-chain scaling. It enables low-fee, and instant ether transfer between nodes. 
+Sharding is increasing the blockchain capacity by distributing mining to multiple nodes to work on different blocks
 
 #### Fab 13, 2022 (Day 41): Lightning Network Scalability
 
