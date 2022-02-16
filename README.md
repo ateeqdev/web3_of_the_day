@@ -2,9 +2,18 @@
 
 One thing dumb or too technical about blockchain daily
 
-#### Fab 14, 2022 (Day 42): Sharding
+#### Fab 16, 2022 (Day 44): Layer 1 vs Layer 2
 
-Sharding is increasing the blockchain capacity by distributing mining to multiple nodes to work on different blocks
+Layer 1 or On-Chain scaling solutions require changes to the underlaying blockchain protocol (e.g. SegWitz/Sharding)
+Layer 2 or Off-Chain solutions are addons to the network. Like a P2SH or a Smart Contract that makes the network more scalable (e.g. Payment Channels/Side Chains)
+
+#### Fab 15, 2022 (Day 43): Sharding
+
+Sharding is increasing the blockchain capacity by distributing mining to multiple nodes to work on different blocks.
+
+#### Fab 14, 2022 (Day 42): Raiden Network
+
+Raiden is a smart contract for off-chain scaling. It enables low-fee, and instant ether transfer between nodes. 
 
 #### Fab 13, 2022 (Day 41): Lightning Network Scalability
 
