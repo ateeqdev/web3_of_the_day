@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 17, 2022 (Day 45): Danksharding
+
+Danksharding turns Ethereum into a unified settlement and data availability layer.
+
 #### Fab 16, 2022 (Day 44): Layer 1 vs Layer 2
 
 Layer 1 or On-Chain scaling solutions require changes to the underlaying blockchain protocol (e.g. SegWitz/Sharding)
