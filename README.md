@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 18, 2022 (Day 46): Remix IDE
+
+Remix IDE is an open source web & Desktop application to write Solidity code.
+
 #### Fab 17, 2022 (Day 45): Danksharding
 
 Danksharding turns Ethereum into a unified settlement and data availability layer.
