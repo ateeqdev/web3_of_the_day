@@ -2,6 +2,14 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 19, 2022 (Day 47): Solidity Variables
+
+Local Variables are declared in a function and are not stored on the blockchain  
+State Variables are declared outside the function and are stored on the blockchain  
+Global variables are injected by the blockchain on runtime. e.g. (block.timestamp: current block timestamp, msg.sender: address of the caller)  
+unit8 stands for unsigned integer with value ranging from 0 to 2^8-1  
+unit is an alias of uint256 (0 to 2^256 -1)
+
 #### Fab 18, 2022 (Day 46): Remix IDE
 
 Remix IDE is an open source web & Desktop application to write Solidity code.
