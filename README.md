@@ -2,6 +2,10 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 20, 2022 (Day 48): Ropsten Testnet
+
+Ropsten Ethereum (or “Ethereum Testnet”) is a test network that allows for blockchain development testing before deployment on Mainnet Ethereum.
+
 #### Fab 19, 2022 (Day 47): Solidity Variables
 
 Local Variables are declared in a function and are not stored on the blockchain  
