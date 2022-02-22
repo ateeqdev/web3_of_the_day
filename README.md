@@ -2,6 +2,18 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 22, 2022 (Day 50): Social Recovery Wallets
+
+One analysis of the Bitcoin ecosystem suggests that 1500 BTC may be lost every day as much as 20% of the total supply.  
+
+Social recovery system can be a solution that works as follows:  
+There is a single "signing key" that can be used to approve transactions  
+There is a set of at least 3 (or a much higher number) of "guardians", of which a majority can cooperate to change the signing key of the account.  
+[Learn more](https://vitalik.ca/general/2021/01/11/recovery.html)
+
+#### Fab 21, 2022 (Day 49): Leave
+
+
 #### Fab 20, 2022 (Day 48): Ropsten Testnet
 
 Ropsten Ethereum (or “Ethereum Testnet”) is a test network that allows for blockchain development testing before deployment on Mainnet Ethereum.
