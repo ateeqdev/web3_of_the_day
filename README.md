@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 23, 2022 (Day 51): IPFS
+
+IPFS (short for InterPlanetary File System) is a file storing and sharing system in a decentralized manner.  
+It searches files based on the hash of it's content, not their address. 
+
 #### Fab 22, 2022 (Day 50): Social Recovery Wallets
 
 One analysis of the Bitcoin ecosystem suggests that 1500 BTC may be lost every day as much as 20% of the total supply.  
