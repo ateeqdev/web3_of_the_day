@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 24, 2022 (Day 52): Solidity: Reading and Writing State Variables
+
+To write or update a state variable you need to send a transaction.  
+On the other hand, you can read state variables, for free, without any transaction fee.
+
 #### Fab 23, 2022 (Day 51): IPFS
 
 IPFS (short for InterPlanetary File System) is a file storing and sharing system in a decentralized manner.  
