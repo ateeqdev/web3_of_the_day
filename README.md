@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily
 
+#### Fab 25, 2022 (Day 53): Two Types of Gas Limits
+
+gas limit (max amount of gas you're willing to use for your transaction, set by you)  
+block gas limit (max amount of gas allowed in a block, set by the network)  
+
 #### Fab 24, 2022 (Day 52): Solidity: Reading and Writing State Variables
 
 To write or update a state variable you need to send a transaction.  
