@@ -1,6 +1,12 @@
 # Web3 Of The Day
 
-One thing dumb or too technical about blockchain daily
+One thing dumb or too technical about blockchain daily, a subset of what I learned that day
+
+#### Fab 26, 2022 (Day 54): Solidity: Pure Functions
+
+Pure functions neither modify the blockchain nor read it  
+Modifiers are functions that pre-requisite another function  
+P.S. I minted an NFT today. [See here](https://ropsten.etherscan.io/token/0x49d8570c1fa68520a475430b83d1751151681a0b)
 
 #### Fab 25, 2022 (Day 53): Two Types of Gas Limits
 
