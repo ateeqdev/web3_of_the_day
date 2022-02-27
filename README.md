@@ -2,6 +2,11 @@
 
 One thing dumb or too technical about blockchain daily, a subset of what I learned that day
 
+#### Fab 26, 2022 (Day 54): Fungibility w/ an Anology
+
+Fungibility: Let’s say you’re visiting the bank and happen to have an old but workable dollar bill in your pocket, you do your thing and ask the cashier to provide a fresh note. You provide the old bill and get a fresh one. Both of them had exactly the same value. That is called fungibility.  
+NFTs are not like that, they are unique to themselves which means there are no two tokens that are identical.  
+
 #### Fab 26, 2022 (Day 54): Solidity: Pure Functions
 
 Pure functions neither modify the blockchain nor read it  
