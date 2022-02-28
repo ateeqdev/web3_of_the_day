@@ -2,6 +2,12 @@
 
 One thing dumb or too technical about blockchain daily, a subset of what I learned that day
 
+#### Fab 28, 2022 (Day 56): Solidity: Storage vs Memory vs Stack
+
+Storage is persistent, can be accessed after the execution is completed.  
+Memory is temporary and relatively cheaper, it can not be accessed after the execution is completed.  
+Stack is temporary and almost free, it can only hold a limited amount of data and can not be accessed later  
+
 #### Fab 27, 2022 (Day 55): Fungibility w/ an Anology
 
 Fungibility: Let’s say you’re visiting the bank and happen to have an old but workable dollar bill in your pocket, you do your thing and ask the cashier to provide a fresh note. You provide the old bill and get a fresh one. Both of them had exactly the same value. That is called fungibility.  
