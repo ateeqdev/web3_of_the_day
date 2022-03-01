@@ -2,6 +2,12 @@
 
 One thing dumb or too technical about blockchain daily, a subset of what I learned that day
 
+#### March 1, 2022 (Day 57): Solidity: Gas for Public vs External Functions 
+
+Public function uses more gas than external functions. 
+
+The difference is because in public functions, Solidity immediately copies array arguments to memory, while external functions can read directly from calldata. Memory allocation is expensive, whereas reading from calldata is cheap.
+
 #### Fab 28, 2022 (Day 56): Solidity: Storage vs Memory vs Stack
 
 Storage is persistent, can be accessed after the execution is completed.  
