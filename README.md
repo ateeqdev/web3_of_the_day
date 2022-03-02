@@ -1,6 +1,6 @@
 # Web3 Of The Day
 
-The journal of my learning progress in blockchain technology, a subset of what I learned in a day
+I'm learning blockchain and journal a subset of what I learned in a day here  
 
 #### March 2, 2022 (Day 58): Solidity: Function Access Classifiers
 
