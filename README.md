@@ -1,10 +1,17 @@
 # Web3 Of The Day
 
-One thing dumb or too technical about blockchain daily, a subset of what I learned that day
+The journal of my learning progress in blockchain technology, a subset of what I learned in a day
+
+#### March 2, 2022 (Day 58): Solidity: Function Access Classifiers
+
+public - all can access  
+external - Cannot be accessed internally, only externally  
+internal - only this contract and contracts deriving from it can access  
+private - can be accessed only from this contract  
 
 #### March 1, 2022 (Day 57): Solidity: Gas for Public vs External Functions 
 
-Public function uses more gas than external functions. 
+Public functions use more gas than external functions. 
 
 The difference is because in public functions, Solidity immediately copies array arguments to memory, while external functions can read directly from calldata. Memory allocation is expensive, whereas reading from calldata is cheap.
 
