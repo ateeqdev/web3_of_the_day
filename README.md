@@ -2,6 +2,16 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 3, 2022 (Day 59): Solidity: Re-entry Attack
+
+Here's how it goes:  
+1. A person (let's call it _attacker_) deposits some funds to a Solidity Smart Contract (let's call it _legit_),  
+2. _attacker_ sends those funds to a malicious contract (let's call it _vacuum_)  
+3. before _legit_ finishes updating the balance of _attacker_, the _vacuum_ again calls the _withdraw_ function of _legit_  
+4. _vacuum_ repeats this until the funds of _legit_ are drained (hundreds of millions of dollars have been lost by this hack)  
+
+Function modifiers or locking the execution through a variable can be used to prevent this attack
+
 #### March 2, 2022 (Day 58): Solidity: Function Access Classifiers
 
 public - all can access  
