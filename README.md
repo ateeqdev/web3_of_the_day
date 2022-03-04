@@ -2,6 +2,10 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 4, 2022 (Day 60): Solidity: Override Parent's Function
+Parent functions can be overridden by child contracts using virtual keyword  
+If a contract is extending and being extended at the same time, it's function can override and be overridden at the same time using both virtual and override keywords
+
 #### March 3, 2022 (Day 59): Solidity: Re-entry Attack
 
 Here's how it goes:  
