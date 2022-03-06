@@ -2,8 +2,13 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 6, 2022 (Day 62) Solidity: Fallback
+
+When Etheres are transfered to a smart contract that doesn't have the receive() function, the fallback function is called.  
+It is also called when an external contract calls a non-existing function
 
 #### March 5, 2022 (Day 61) Solidity: Payable
+
 Functions and addresses declared payable can receive ether into the contract.
 
 #### March 4, 2022 (Day 60): Solidity: Override Parent's Function
