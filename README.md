@@ -2,6 +2,11 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 7, 2022 (Day 63) Solidity: ABI
+
+Application Binary Interface (ABI) is the standard way to interact with smart contracts on Ethereum Network  
+It is similar to APIs
+
 #### March 6, 2022 (Day 62) Solidity: Fallback
 
 When Etheres are transfered to a smart contract that doesn't have the receive() function, the fallback function is called.  
