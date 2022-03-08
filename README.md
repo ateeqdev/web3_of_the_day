@@ -2,9 +2,14 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 8, 2022 (Day 64) Solidity: DelegateCall
+
+DelegateCall function in a contract (say ContractOne) allows an external contract to make changes to the state of ContractOne.  
+It is a dangerous thing to do
+
 #### March 7, 2022 (Day 63) Solidity: ABI
 
-Application Binary Interface (ABI) is the standard way to interact with smart contracts on Ethereum Network  
+Application Binary Interface (ABI) is the standard way to interact with smart contracts on Ethereum Network.  
 It is similar to APIs
 
 #### March 6, 2022 (Day 62) Solidity: Fallback
