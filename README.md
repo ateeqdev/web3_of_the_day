@@ -2,22 +2,30 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
-#### March 8, 2022 (Day 64) Solidity: DelegateCall
+#### March 8, 2022 (Day 65): Solidity: Try/Catch
+
+Try/catch only works while creating external contract or calling its function  
+To make a contract external only, require that it's address is not the default one and not the same as the owner in its constructor  
+
+require(_owner != address(0), "invalid address");
+assert(_owner != 0x0000000000000000000000000000000000000001);
+
+#### March 8, 2022 (Day 64): Solidity: DelegateCall
 
 DelegateCall function in a contract (say ContractOne) allows an external contract to make changes to the state of ContractOne.  
 It is a dangerous thing to do
 
-#### March 7, 2022 (Day 63) Solidity: ABI
+#### March 7, 2022 (Day 63): Solidity: ABI
 
 Application Binary Interface (ABI) is the standard way to interact with smart contracts on Ethereum Network.  
 It is similar to APIs
 
-#### March 6, 2022 (Day 62) Solidity: Fallback
+#### March 6, 2022 (Day 62): Solidity: Fallback
 
 When Etheres are transfered to a smart contract that doesn't have the receive() function, the fallback function is called.  
 It is also called when an external contract calls a non-existing function
 
-#### March 5, 2022 (Day 61) Solidity: Payable
+#### March 5, 2022 (Day 61): Solidity: Payable
 
 Functions and addresses declared payable can receive ether into the contract.
 
