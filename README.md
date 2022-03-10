@@ -2,7 +2,13 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
-#### March 8, 2022 (Day 65): Solidity: Try/Catch
+#### March 10, 2022 (Day 66): Solidity: Library
+
+To re-use code without state variables, library keyword can be used instead of contract.  
+To use library for a data type, the following syntax is used  
+using libraryname for datatype  
+
+#### March 9, 2022 (Day 65): Solidity: Try/Catch
 
 Try/catch only works while creating external contract or calling its function  
 To make a contract external only, require that it's address is not the default one and not the same as the owner in its constructor  
