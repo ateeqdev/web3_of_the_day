@@ -2,6 +2,9 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 11, 2022 (Day 67): Solidity: Keccak (pronounced “ketchak”)  
+Hash function better than SHA-1 & SHA-2
+
 #### March 10, 2022 (Day 66): Solidity: Library
 
 To re-use code without state variables, library keyword can be used instead of contract.  
