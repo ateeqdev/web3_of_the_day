@@ -2,8 +2,14 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 12, 2022 (Day 68): Solidity: abi.encode vs abi.encodePacked  
+abi.encodePacked returns smallest encoded string  
+  - Used when saving space is required given that this will not be used to call contracts
+ab.encode returns a 32-bit padded output  
+  - Used when to call a contract
+
 #### March 11, 2022 (Day 67): Solidity: Keccak (pronounced “ketchak”)  
-Hash function better than SHA-1 & SHA-2
+Hash function that is better than SHA-1 & SHA-2
 
 #### March 10, 2022 (Day 66): Solidity: Library
 
