@@ -2,6 +2,10 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 13, 2022 (Day 69): Solidity: assembly  
+To directly interact with the EVM, Solidity has a keyword called assembly that can be used to run low level instructions  
+Example: mload to load the word located at the given memory address
+
 #### March 12, 2022 (Day 68): Solidity: abi.encode vs abi.encodePacked  
 abi.encodePacked returns smallest encoded string  
   - Used when saving space is required given that this will not be used to call contracts
