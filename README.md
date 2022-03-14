@@ -2,6 +2,9 @@
 
 I'm learning blockchain and journal a subset of what I learned in a day here  
 
+#### March 14, 2022 (Day 70): Solidity 0.8.10: Gas Comparison of increment  
+Gas required: `++count;` < `count++;` < `count = count + 1;` < `count += 1;`
+
 #### March 13, 2022 (Day 69): Solidity: assembly  
 To directly interact with the EVM, Solidity has a keyword called assembly that can be used to run low level instructions  
 Example: mload to load the word located at the given memory address
