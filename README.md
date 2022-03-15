@@ -1,6 +1,9 @@
-# Web3 Of The Day
+# Proof of Passion (Blockchain) 
 
-I'm learning blockchain and journal a subset of what I learned in a day here  
+I learn blockchain and journal a subset of what I learned in a day here  
+
+#### March 15, 2022 (Day 71): Solidity: Create2  
+Contract address can be precomputed, before the contract is deployed, using create2
 
 #### March 14, 2022 (Day 70): Solidity 0.8.10: Gas Comparison of increment  
 Gas required: `++count;` < `count++;` < `count = count + 1;` < `count += 1;`
