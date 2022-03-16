@@ -2,6 +2,9 @@
 
 I learn blockchain and journal a subset of what I learned in a day here  
 
+#### March 16, 2022 (Day 72): Solidity: Why 0xFF in Create2  
+0xFF parameter is a constant to prevent collision with CREATE opcode 
+
 #### March 15, 2022 (Day 71): Solidity: Create2  
 Contract address can be precomputed, before the contract is deployed, using create2
 
