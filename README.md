@@ -2,13 +2,16 @@
 
 I learn blockchain and journal a subset of what I learned in a day here  
 
-#### March 16, 2022 (Day 72): Solidity: Why 0xFF in Create2  
-0xFF parameter is a constant to prevent collision with CREATE opcode 
+#### March 17, 2022 (Day 73): Solidity: Verify Signature  
+
+Trying to implement the VerifySignature smart contract. The source code can be found in src folder  
 
 #### March 15, 2022 (Day 71): Solidity: Create2  
+
 Contract address can be precomputed, before the contract is deployed, using create2
 
 #### March 14, 2022 (Day 70): Solidity 0.8.10: Gas Comparison of increment  
+
 Gas required: `++count;` < `count++;` < `count = count + 1;` < `count += 1;`
 
 #### March 13, 2022 (Day 69): Solidity: assembly  
@@ -16,6 +19,7 @@ To directly interact with the EVM, Solidity has a keyword called assembly that c
 Example: mload to load the word located at the given memory address
 
 #### March 12, 2022 (Day 68): Solidity: abi.encode vs abi.encodePacked  
+
 abi.encodePacked returns smallest encoded string  
   - Used when saving space is required given that this will not be used to call contracts
 ab.encode returns a 32-bit padded output  
