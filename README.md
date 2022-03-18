@@ -2,6 +2,10 @@
 
 I learn blockchain and journal a subset of what I learned in a day here  
 
+#### March 18, 2022 (Day 74): Solidity: Verify Signature Testing  
+
+Successfully retrieved the account address from ethSignedMessageHash & offchain signature using MetaMask  
+
 #### March 17, 2022 (Day 73): Solidity: Verify Signature  
 
 Trying to implement the VerifySignature smart contract. The source code can be found in src folder  
