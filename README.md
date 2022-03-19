@@ -1,6 +1,10 @@
 # Proof of Passion (Blockchain) 
 
-I learn blockchain and journal a subset of what I learned in a day here  
+Journal of my learning progress in blockchain  
+
+#### March 19, 2022 (Day 75): Solidity: Minimal Proxy Contract
+
+If you have a contract that will be deployed multiple times, use minimal proxy contract to deploy them cheaply.
 
 #### March 18, 2022 (Day 74): Solidity: Verify Signature Testing  
 
