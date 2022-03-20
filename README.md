@@ -2,6 +2,13 @@
 
 Journal of my learning progress in blockchain  
 
+#### March 20, 2022 (Day 76): Solidity: Self Destruct Vulnerability  
+Contracts can be deleted from the blockchain by calling selfdestruct.  
+selfdestruct sends all remaining Ether stored in the contract to a designated address.  
+
+Vulnerability  
+A malicious contract can use selfdestruct to force sending Ether to any contract.  
+
 #### March 19, 2022 (Day 75): Solidity: Minimal Proxy Contract
 
 If you have a contract that will be deployed multiple times, use minimal proxy contract to deploy them cheaply.
