@@ -2,6 +2,11 @@
 
 Journal of my learning progress in blockchain  
 
+#### March 21, 2022 (Day 77): Solidity: Use unit256 instead of unit8  
+Each storage slot in Ethereum has 256 bytes, if we use a smaller variable, the rest is filled with zeros. 
+Every other type is converted to unit256 as well
+Both of them costs gas
+
 #### March 20, 2022 (Day 76): Solidity: Self Destruct Vulnerability  
 Contracts can be deleted from the blockchain by calling selfdestruct.  
 selfdestruct sends all remaining Ether stored in the contract to a designated address.  
