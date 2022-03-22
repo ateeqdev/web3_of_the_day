@@ -2,6 +2,11 @@
 
 Journal of my learning progress in blockchain  
 
+#### March 22, 2022 (Day 78): Solidity: Immutables vs Constants 
+Constants are assigned a value at the time of their declaration  
+Immutables can be initialized during their declaration as well as in the constructor  
+Both of them can not be altered later
+
 #### March 21, 2022 (Day 77): Solidity: Use unit256 instead of unit8  
 Each storage slot in Ethereum has 256 bytes, if we use a smaller variable, the rest is filled with zeros. 
 Every other type is converted to unit256 as well
