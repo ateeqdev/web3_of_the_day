@@ -2,17 +2,26 @@
 
 Journal of my learning progress in blockchain  
 
-#### March 22, 2022 (Day 78): Solidity: Immutables vs Constants 
+#### March 23, 2022 (Day 79): Solidity: SSTORE gas cost  
+
+An SSTORE operation costs 20,000 units of gas if the storage word is set to non-zero from zero  
+It costs 800 if the variable is set to the same value  
+Otherwise, it costs 5,000 
+
+#### March 22, 2022 (Day 78): Solidity: Immutables vs Constants  
+
 Constants are assigned a value at the time of their declaration  
 Immutables can be initialized during their declaration as well as in the constructor  
 Both of them can not be altered later
 
 #### March 21, 2022 (Day 77): Solidity: Use unit256 instead of unit8  
+
 Each storage slot in Ethereum has 256 bytes, if we use a smaller variable, the rest is filled with zeros. 
 Every other type is converted to unit256 as well
 Both of them costs gas
 
 #### March 20, 2022 (Day 76): Solidity: Self Destruct Vulnerability  
+
 Contracts can be deleted from the blockchain by calling selfdestruct.  
 selfdestruct sends all remaining Ether stored in the contract to a designated address.  
 
