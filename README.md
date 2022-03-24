@@ -2,11 +2,16 @@
 
 Journal of my learning progress in blockchain  
 
+#### March 24, 2022 (Day 80): Solidity: First dApp  
+
+I deployed my first ever dApp on Ropsten Testnet. It is a proof of mood.  
+Check it out here: 0xDa015981114b3d63E3591532dC0bcf5DBE7eb442
+
 #### March 23, 2022 (Day 79): Solidity: SSTORE gas cost  
 
 An SSTORE operation costs 20,000 units of gas if the storage word is set to non-zero from zero  
 It costs 800 if the variable is set to the same value  
-Otherwise, it costs 5,000 
+Otherwise, it costs 5,000  
 
 #### March 22, 2022 (Day 78): Solidity: Immutables vs Constants  
 
