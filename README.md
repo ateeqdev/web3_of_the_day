@@ -2,6 +2,11 @@
 
 Journal of my learning progress in blockchain  
 
+#### March 24, 2022 (Day 81): Solidity: First Cryptocurrency  
+
+I deployed my first ever ERC-20 on Ropsten Testnet.  
+Check it out here: 0x4194B651dBFCbF5141761a37CA633Ad6C0458F14
+
 #### March 24, 2022 (Day 80): Solidity: First dApp  
 
 I deployed my first ever dApp on Ropsten Testnet. It is a proof of mood.  
