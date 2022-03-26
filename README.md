@@ -2,7 +2,12 @@
 
 Journal of my learning progress in blockchain  
 
-#### March 24, 2022 (Day 81): Solidity: First Cryptocurrency  
+#### March 26, 2022 (Day 82): Solidity: NFT ERC 721 using HardHat, Alchemy  
+
+I leveraged Alchemy and Hardhat to deploy an ERC-721 on Rinkeby Testnet.  
+Check it out here: 0x27DE18A28F205d0685c35632a691282A4e332af2
+
+#### March 25, 2022 (Day 81): Solidity: First Cryptocurrency  
 
 I deployed my first ever ERC-20 on Ropsten Testnet.  
 Check it out here: 0x4194B651dBFCbF5141761a37CA633Ad6C0458F14
