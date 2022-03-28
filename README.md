@@ -2,6 +2,11 @@
 
 Journal of my learning progress in blockchain
 
+#### March 28, 2022 (Day 84): ERC20 Approval Flow
+
+To transfer L2 coins (built on top of Ethereum), ERC20 standard was introduced. The standard works on Allowance concept  \
+The `sender` first approves that the `reciever` can spend upto amount on behalf of the `sender` and then `transferFrom` actually transfers the amount.  
+
 #### March 27, 2022 (Day 83): Javascript BigNumbers
 
 Solidity's `uint256` can hold a lot greater number than the `number` variable of javascript. If we use that for calculations on smart contracts, our values will be greatly incorrect or undefined.
