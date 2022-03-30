@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain
 
+#### March 29, 2022 (Day 85 L): Solidity: Mappings cannot be in-memory
+
+Unlike arrays and other types of variables, mappings cannot be in-memory
+
 #### March 28, 2022 (Day 84): ERC20 Approval Flow
 
 To transfer L2 coins (built on top of Ethereum), ERC20 standard was introduced. The standard works on Allowance concept  \
