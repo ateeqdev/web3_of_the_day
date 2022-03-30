@@ -2,6 +2,11 @@
 
 Journal of my learning progress in blockchain
 
+#### March 230, 2022 (Day 86): Solidity: Check if the sender is a contract
+
+If assembly code `extcodesize(address)` where address is msg.sender is greater than 0, it is a contract, otherwise, sender is a regular account.  
+Note that, if the external contract is calling the contract from it's constructor, the above will return 0 and the victim contract may assume that the call is made by a human  
+
 #### March 29, 2022 (Day 85 L): Solidity: Mappings cannot be in-memory
 
 Unlike arrays and other types of variables, mappings cannot be in-memory
