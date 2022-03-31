@@ -1,8 +1,13 @@
 # Proof of Passion (Blockchain)
 
-Journal of my learning progress in blockchain
+Journal of my learning progress in blockchain  
 
-#### March 230, 2022 (Day 86): Solidity: Check if the sender is a contract
+#### March 31, 2022 (Day 87): Solidity: Minimal Proxy Contract
+
+instead of deploying a huge contract multiple times, we just deploy a super-cheap minimal proxy contract that points to the huge contract already on chain.  
+All the proxy contract will do is delegate all calls to the implementatio
+
+#### March 30, 2022 (Day 86): Solidity: Check if the sender is a contract
 
 If assembly code `extcodesize(address)` where address is msg.sender is greater than 0, it is a contract, otherwise, sender is a regular account.  
 Note that, if the external contract is calling the contract from it's constructor, the above will return 0 and the victim contract may assume that the call is made by a human  
