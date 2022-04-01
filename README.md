@@ -2,10 +2,15 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 1, 2022 (Day 88): Cryptographic Nonce  
+
+Nonce means number only used once.  
+It is used to ensure that old communication is not re-used again in replay attacks
+
 #### March 31, 2022 (Day 87): Solidity: Minimal Proxy Contract
 
 instead of deploying a huge contract multiple times, we just deploy a super-cheap minimal proxy contract that points to the huge contract already on chain.  
-All the proxy contract will do is delegate all calls to the implementatio
+All the proxy contract will do is delegate all calls to the implementation
 
 #### March 30, 2022 (Day 86): Solidity: Check if the sender is a contract
 
