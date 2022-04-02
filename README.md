@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 2, 2022 (Day 89): Solidity: Whitelist dApp (in progress)  
+
+I'm building a decentralized app that can allow a certain number of users to join a whitelist based on first come first serve.
+
 #### April 1, 2022 (Day 88): Cryptographic Nonce  
 
 Nonce means number only used once.  
