@@ -11,4 +11,24 @@ export default function Home() {
   const [numberOfWhitelisted, setNumberOfWhitelisted] = useState(0);
   const web3ModalRef = useRef();
 
+  const getProviderOrSigner = (needSigner = false) => {
+
+    const provider = await web3ModalRef.connect();
+    const web3Provider = await providers.web3Provider(provider);
+
+    const chainId = await web3Provider.getNetwork();
+
+    if(chainId !== 4) {
+      window.alert("Change the network to Rinkeby");
+      throw new Error("Change the network to Rinkeby");
+    }
+
+    if(needSigner) {
+      const signer = web3Provider.getSigner();
+      return signer;
+    }
+
+    return web3Provider;
+  }
+
 }
