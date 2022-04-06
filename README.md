@@ -2,13 +2,17 @@
 
 Journal of my learning progress in blockchain    
 
-#### April 5, 2022 (Day 89): Solidity: Whitelist dApp (in progress), Provider vs Signer  
+#### April 6, 2022 (Day 93): Solidity: Whitelist dApp (in progress), JS add address to waitlist  
+
+
+
+#### April 5, 2022 (Day 92): Solidity: Whitelist dApp (in progress), Provider vs Signer  
 
 A `Provider` is needed to interact with the blockchain - reading transactions, reading balances, reading state, etc.
 
 A `Signer` is a special type of Provider used in case a `write` transaction needs to be made to the blockchain, which involves the connected account needing to make a digital signature to authorize the transaction being sent. Metamask exposes a Signer API to allow your website to request signatures from the user using Signer functions.
 
-#### April 3,4, 2022 (Day 89): Solidity: Whitelist dApp (in progress)  
+#### April 3,4, 2022 (Day 90,91): Solidity: Whitelist dApp (in progress)  
 
 The app is still in progress. I finished creating the Solidity part, working on the frontend  
 
