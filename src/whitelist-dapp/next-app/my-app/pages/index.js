@@ -30,17 +30,17 @@ export default function Home() {
     }
 
     return web3Provider;
-  }
+  };
 
-  const addAddressToWaitlist = async () => {
+  const addAddressToWhitelist = async () => {
     try {
       const signer = await getProviderOrSigner(true);
       const whitelistContract = new Contract (
         WHITELIST_CONTRACT_ADDRESS,
         abi,
-        provider
+        signer
       );
-      const tx = await whitelistContract.addAddressToWaitlist();
+      const tx = await whitelistContract.addAddressToWhitelist();
       setLoading(true);
       await tx.load();
       setLoading(false);
@@ -50,6 +50,49 @@ export default function Home() {
     catch (error) {
       console.error(error);
     }
+  };
+
+  const getNumberOfWhitelisted = async () => {
+    try {
+      const provider = await getProviderOrSigner(false);
+      const whiteListContract = new Contract (
+        WHITELIST_CONTRACT_ADDRESS,
+        abi,
+        provider
+      );
+      const _numberOfWhitelisted = await whiteListContract.numAddressesWhitelisted();
+      setNumberOfWhitelisted(_numberOfWhitelisted);
+    }
+    catch (error) {
+      console.error(error);
+    }
+  };
+
+  const checkIfAddressInWhitelist = async () => {
+    try {
+      const signer = await getProviderOrSigner(true);
+      const whitelistContract = new Contract (
+        WHITELIST_CONTRACT_ADDRESS,
+        abi,
+        signer
+      );
+      const address = await signer.getAddress();
+      const _joinedWhitelist = await whitelistContract.whiteListedAddresses (address);
+      setJoinedWhitelist(_joinedWhitelist);
+    }
+    catch (error) {
+      console.error(error);
+    }
   }
 
+  const connectWallet = async () => {
+    try {
+      await getProviderOrSigner (false);
+      setWalletConnected(true);
+      checkIfAddressInWhitelist();
+      getNumberOfWhitelisted();
+    } catch (error) {
+      console.error(error);
+    }
+  }
 }

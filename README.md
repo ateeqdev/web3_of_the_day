@@ -2,9 +2,13 @@
 
 Journal of my learning progress in blockchain    
 
-#### April 6, 2022 (Day 93): Solidity: Whitelist dApp (in progress), JS add address to waitlist  
+#### April 7, 2022 (Day 94): Solidity: Whitelist dApp (in progress)  
 
+JS to connect wallet + check number of whitelisted contracts
 
+#### April 6, 2022 (Day 93): Solidity: Whitelist dApp (in progress)  
+
+JS to add address to whitelist
 
 #### April 5, 2022 (Day 92): Solidity: Whitelist dApp (in progress), Provider vs Signer  
 
