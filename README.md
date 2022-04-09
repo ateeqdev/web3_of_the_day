@@ -2,9 +2,13 @@
 
 Journal of my learning progress in blockchain    
 
+#### April 9, 2022 (Day 96): Solidity: dApp (Done)  
+
+Whitelist dApp done
+
 #### April 8, 2022 (Day 95): Solidity: dApp (almost ready)  
 
-Almost ready, fixing some machine specific issues
+fixing some bugs
 
 #### April 7, 2022 (Day 94): Solidity: Whitelist dApp (in progress)  
 

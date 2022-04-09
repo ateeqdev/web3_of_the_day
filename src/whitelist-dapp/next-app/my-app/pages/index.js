@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
-import { useEffect, useState } from "react/cjs/react.production.min";
-import { WHITELIST_CONTRACT_ADDRESS, abi } from "./constants";
+import { useEffect, useRef, useState } from "react";
+import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,11 +13,13 @@ export default function Home() {
   const [numberOfWhitelisted, setNumberOfWhitelisted] = useState(0);
   const web3ModalRef = useRef();
 
-  const getProviderOrSigner = async (needSigner = false) => {
-    const provider = await web3ModalRef.connect();
-    const web3Provider = await providers.web3Provider(provider);
+  console.log(abi);
 
-    const chainId = await web3Provider.getNetwork();
+  const getProviderOrSigner = async (needSigner = false) => {
+    const provider = await web3ModalRef.current.connect();
+    const web3Provider = new providers.Web3Provider(provider);
+
+    const { chainId } = await web3Provider.getNetwork();
 
     if (chainId !== 4) {
       window.alert("Change the network to Rinkeby");
@@ -41,9 +44,9 @@ export default function Home() {
       );
       const tx = await whitelistContract.addAddressToWhitelist();
       setLoading(true);
-      await tx.load();
+      await tx.wait();
       setLoading(false);
-      await getNmberOfWhitelisted();
+      await getNumberOfWhitelisted();
       setJoinedWhitelist(true);
     } catch (error) {
       console.error(error);
@@ -53,13 +56,13 @@ export default function Home() {
   const getNumberOfWhitelisted = async () => {
     try {
       const provider = await getProviderOrSigner(false);
-      const whiteListContract = new Contract(
+      const whitelistContract = new Contract(
         WHITELIST_CONTRACT_ADDRESS,
         abi,
         provider
       );
       const _numberOfWhitelisted =
-        await whiteListContract.numAddressesWhitelisted();
+        await whitelistContract.numAddressesWhitelisted();
       setNumberOfWhitelisted(_numberOfWhitelisted);
     } catch (error) {
       console.error(error);
@@ -75,7 +78,7 @@ export default function Home() {
         signer
       );
       const address = await signer.getAddress();
-      const _joinedWhitelist = await whitelistContract.whiteListedAddresses(
+      const _joinedWhitelist = await whitelistContract.whitelistedAddresses(
         address
       );
       setJoinedWhitelist(_joinedWhitelist);
