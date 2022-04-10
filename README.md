@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain    
 
+#### April 10, 2022 (Day 97): Solidity: NFT Collection dApp (Day 1)  
+
+Started making an NFT collection dApp
+
 #### April 9, 2022 (Day 96): Solidity: dApp (Done)  
 
 Whitelist dApp done
