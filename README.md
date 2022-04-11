@@ -1,6 +1,10 @@
 # Proof of Passion (Blockchain)
 
-Journal of my learning progress in blockchain    
+Journal of my learning progress in blockchain  
+
+#### April 11, 2022 (Day 98): Solidity: NFT Collection dApp (Day 2)  
+
+Variables + constructor + presale
 
 #### April 10, 2022 (Day 97): Solidity: NFT Collection dApp (Day 1)  
 
