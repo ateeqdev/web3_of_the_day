@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 12, 2022 (Day 99): Solidity: NFT Collection dApp (Day 3)  
+
+Safemint while in presale mode
+
 #### April 11, 2022 (Day 98): Solidity: NFT Collection dApp (Day 2)  
 
 Variables + constructor + presale
