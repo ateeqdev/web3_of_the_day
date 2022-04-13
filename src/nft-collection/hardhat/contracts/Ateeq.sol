@@ -45,4 +45,30 @@ contract Ateeq is ERC721Enumerable, Ownable {
         tokenIds += 1;
         _safeMint (msg.sender, tokenIds);
     }
+
+    function mint () public payable onlyWhenPaused {
+        require(presaleStarted && block.timestamp >= presaleEnded, "Presale has not ended");
+        require(tokenIds < maxTokenIds, "Excedded maximum supply");
+        require(msg.value >= price, "Not enough Ether sent");
+        tokenIds += 1;
+        _safeMint(msg.sender, tokenIds);
+    }
+
+    function _baseURL() internal view override returns (string memory) {
+        return _baseURL();
+    }
+
+    function setPaused(bool val) public onlyOwner {
+        _paused = val;
+    }
+
+    function withdraw () public onlyOwner {
+        address _owner = owner();
+        uint256 amount = address(this).balance;
+        (bool sent, ) = _owner.call{value: amount}("");
+        require(sent, "Failed to withdraw");
+    }
+
+    receive() external payable {}
+    fallback() external payable {}
 }
