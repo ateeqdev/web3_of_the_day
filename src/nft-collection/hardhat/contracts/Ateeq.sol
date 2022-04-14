@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.13;
+pragma solidity 0.8.4;
 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721enumerable.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./IWhitelist.sol";
 
@@ -25,6 +25,7 @@ contract Ateeq is ERC721Enumerable, Ownable {
 
     modifier onlyWhenPaused {
         require(!_paused, "Sale is paused, try again later");
+        _;
     }
 
     constructor (string memory baseURI, address whitelistContract) ERC721 ("Ateeq", "AT") {
@@ -54,8 +55,8 @@ contract Ateeq is ERC721Enumerable, Ownable {
         _safeMint(msg.sender, tokenIds);
     }
 
-    function _baseURL() internal view override returns (string memory) {
-        return _baseURL();
+    function _baseURI() internal view virtual override returns (string memory) {
+        return _baseTokenURI;
     }
 
     function setPaused(bool val) public onlyOwner {
