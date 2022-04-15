@@ -2,6 +2,14 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 15, 2022 (Day 102): Solidity: NFT Collection dApp (Day 6)  
+
+Learned about reactjs useContext, useState and useRef in preparation for the next of NFT Collection app
+
+#### April 14, 2022 (Day 101): Solidity: NFT Collection dApp (Day 5)  
+
+Facing some issues while deploying the smart contract (address not shown in terminal)
+
 #### April 13, 2022 (Day 100): Solidity: NFT Collection dApp (Day 4)  
 
 Contract done
