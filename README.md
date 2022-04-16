@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 16, 2022 (Day 103): Solidity: NFT Collection dApp (Day 7)  
+
+Deployed on Rinkeby at 0x7c3d21A1Eb32805f09338b2238Df28DA8028d67a
+
 #### April 15, 2022 (Day 102): Solidity: NFT Collection dApp (Day 6)  
 
 Learned about reactjs useContext, useState and useRef in preparation for the next of NFT Collection app
