@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 18, 2022 (Day 105): Solidity: NFT Collection dApp (Day 9)  
+
+Front-end blueprint is ready.
+
 #### April 17, 2022 (Day 104): Solidity: NFT Collection dApp (Day 8)  
 
 Front-end started in nextjs. getSignerOrProvider implemented.

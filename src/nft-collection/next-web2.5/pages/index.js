@@ -32,4 +32,81 @@ export default function Home() {
 
     return web3provider;
   };
+
+  const connectWallet = async () => {
+    try {
+      await getProviderOrSigner();
+      setWalletConnected(true);
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const getOwner = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const checkIfPresaleStarted = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const checkIfPresaleEnded = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const startPresale = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const presaleMint = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const publicMint = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const getTokenIdsMinted = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  useEffect (() => {
+
+  });
+
+  const renderButton = async () => {
+    try {
+
+    } catch (err) {
+      console.error(err);
+    }
+  }
 }
