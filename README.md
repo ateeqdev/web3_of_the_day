@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 19, 2022 (Day 106): Solidity: NFT Collection dApp (Day 10)  
+
+Facing some front-end related issues. Error: Objects are not valid as a React child
+
 #### April 18, 2022 (Day 105): Solidity: NFT Collection dApp (Day 9)  
 
 Front-end blueprint is ready.
