@@ -11,14 +11,14 @@ const { WHITELIST_CONTRACT_ADDRESS, METADATA_URL } = require("../constants");
 async function main() {
   const whitelistContract = WHITELIST_CONTRACT_ADDRESS;
   const metadataURL = METADATA_URL;
-  const ateeqContract = await ethers.getContractFactory ("Ateeq");
+  const cdContract = await ethers.getContractFactory ("CryptoDevs");
 
-  const deployedContract = await ateeqContract.deploy(
+  const deployedContract = await cdContract.deploy(
     metadataURL,
     whitelistContract
   );
 
-  console.log("Ateeq Contract Address: ", deployedContract.address);
+  console.log("CryptoDevs Contract Address: ", deployedContract.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

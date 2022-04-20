@@ -16,7 +16,7 @@ export default function Home() {
   const web3ModalRef = useRef();
 
   const getProviderOrSigner = async (needSigner = false) => {
-    const provider = web3ModalRef.current.connect();
+    const provider = await web3ModalRef.current.connect();
     const web3Provider = new providers.Web3Provider(provider);
 
     const { chainId } = await web3Provider.getNetwork();
@@ -26,12 +26,13 @@ export default function Home() {
     }
 
     if (needSigner) {
-      const signer = web3provider.getSigner();
+      const signer = web3Provider.getSigner();
       return signer;
     }
 
-    return web3provider;
+    return web3Provider;
   };
+
 
   const connectWallet = async () => {
     try {
@@ -46,15 +47,17 @@ export default function Home() {
     try {
       const provider = await getProviderOrSigner();
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, provider);
-      const _owner = await nftContract.getOwner();
+      const _owner = await nftContract.owner();
       const signer = await getProviderOrSigner(true);
-      const address = signer.getAddress();
+      const address = await signer.getAddress();
+      console.log(_owner);
       if(address.toLowerCase() == _owner.toLowerCase())
         setIsOwner(true);
     } catch (err) {
       console.error(err);
     }
   }
+
 
   const checkIfPresaleStarted = async () => {
     try {
@@ -70,6 +73,7 @@ export default function Home() {
     }
   }
 
+
   const checkIfPresaleEnded = async () => {
     try {
       const provider = await getProviderOrSigner();
@@ -80,16 +84,18 @@ export default function Home() {
       return hasEnded;
     } catch (err) {
       console.error(err);
+      return false;
     }
   }
 
+
   const startPresale = async () => {
     try {
-      const signer = getProviderOrSigner(true);
+      const signer = await getProviderOrSigner(true);
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       const transaction = await nftContract.startPresale();
       setLoading(true);
-      transaction.wait();
+      await transaction.wait();
       setLoading(false);
       await checkIfPresaleStarted();
     } catch (err) {
@@ -103,7 +109,7 @@ export default function Home() {
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       const transaction = await nftContract.presaleMint({value: utils.parseEther("0.01")});
       setLoading(true);
-      transaction.wait();
+      await transaction.wait();
       setLoading(false);
       alert("Congratulations on securing NFT in presale");
     } catch (err) {
@@ -113,11 +119,11 @@ export default function Home() {
 
   const publicMint = async () => {
     try {
-      const signer = getProviderOrSigner(true);
+      const signer = await getProviderOrSigner(true);
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       const transaction = await nftContract.mint({value: utils.parseEther("0.01")});
       setLoading(true);
-      transaction.wait();
+      await transaction.wait();
       setLoading(false);
       alert("Congratulations on minting NFT");
     } catch (err) {
@@ -127,14 +133,15 @@ export default function Home() {
 
   const getTokenIdsMinted = async () => {
     try {
-      const provider = getProviderOrSigner();
+      const provider = await getProviderOrSigner();
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, provider);
-      const _tokenIds = await nftContract.tokenIdsMinted();
+      const _tokenIds = await nftContract.tokenIds();
       setTokenIdsMinted(_tokenIds.toString());
     } catch (err) {
       console.error(err);
     }
   }
+
 
   useEffect (() => {
     if(!walletConnected) {
@@ -146,6 +153,8 @@ export default function Home() {
       connectWallet();
       const _preSaleStarted = checkIfPresaleStarted();
       _preSaleStarted && checkIfPresaleEnded();
+
+      getTokenIdsMinted();
 
       const presaleEndedInterval = setInterval( async () => {
         const _preSaleStarted = await checkIfPresaleStarted();
@@ -162,16 +171,17 @@ export default function Home() {
     }
   }, [walletConnected]);
 
-  const renderButton = async () => {
+
+  const renderButton = () => {
     try {
-      // if(!walletConnected)
-      //   return (
-      //     <button onClick={connectWallet} className={styles.button} >Connect your Wallet</button>
-      //   );
-      // if(loading)
-      //   return (
-      //     <button className={styles.button} >Loading...</button>
-      //   );
+      if(!walletConnected)
+        return (
+          <button onClick={connectWallet} className={styles.button} >Connect your Wallet</button>
+        );
+      if(loading)
+        return (
+          <button className={styles.button} >Loading...</button>
+        );
       if(!presaleStarted && isOwner)
         return (
           <button onClick={startPresale} className={styles.button} >Start Presale</button>
