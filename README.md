@@ -2,9 +2,13 @@
 
 Journal of my learning progress in blockchain  
 
-#### April 19, 2022 (Day 107): Solidity: NFT Collection dApp (Day 11)  
+#### April 21, 2022 (Day 108): Solidity: NFT Collection dApp (Day 12)  
 
-Fixed some issues in the contract & front-end. Everything is working fine now.
+Faced some new bugs and fixed them.
+
+#### April 20, 2022 (Day 107): Solidity: NFT Collection dApp (Day 11)  
+
+Fixed some issues in the contract & front-end.
 
 #### April 19, 2022 (Day 106): Solidity: NFT Collection dApp (Day 10)  
 

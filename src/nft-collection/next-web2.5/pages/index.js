@@ -105,7 +105,7 @@ export default function Home() {
 
   const presaleMint = async () => {
     try {
-      const signer = getProviderOrSigner(true);
+      const signer = await getProviderOrSigner(true);
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       const transaction = await nftContract.presaleMint({value: utils.parseEther("0.01")});
       setLoading(true);
@@ -192,11 +192,11 @@ export default function Home() {
         );
       if(presaleStarted && !presaleEnded)
         return (
-          <button className={styles.button} >Presale Mint </button>
+          <button className={styles.button} onClick={presaleMint} >Presale Mint </button>
         );
       if(presaleStarted && presaleEnded)
         return (
-          <button className={styles.button} >Public Mint </button>
+          <button className={styles.button} onClick={publicMint}>Public Mint </button>
         );
     } catch (err) {
       console.error(err);
