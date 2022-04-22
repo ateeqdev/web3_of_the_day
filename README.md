@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 22, 2022 (Day 108): Infura Started  
+
+Started exploring infura, will continue tomorrow 
+
 #### April 21, 2022 (Day 108): Solidity: NFT Collection dApp (Day 12)  
 
 Faced some new bugs and fixed them.
