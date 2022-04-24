@@ -2,9 +2,13 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 24, 2022 (Day 110): Infura: Deployed a Contract  
+
+Used Web3 and Infura to deploy a signature verification contract  
+
 #### April 23, 2022 (Day 109): Infura Started  
 
-Read some documentation. Will start implementing tomorror  
+Read some documentation. Will start implementing tomorrow  
 
 #### April 22, 2022 (Day 108): Infura Started  
 
