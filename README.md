@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 25, 2022 (Day 111): ICO Layer 2 Coin Implementation  
+
+I'm going to implement an ICO for a second layer coin on top of Ethereum. Dependencies installed.  
+
 #### April 24, 2022 (Day 110): Infura: Deployed a Contract  
 
 Used Web3 and Infura to deploy a signature verification contract  
