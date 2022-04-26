@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 26, 2022 (Day 112): Quickswap Interface  
+
+Paused the work on ICO. Started implementing interface of QuickSwap  
+
 #### April 25, 2022 (Day 111): ICO Layer 2 Coin Implementation  
 
 I'm going to implement an ICO for a second layer coin on top of Ethereum. Dependencies installed.  
