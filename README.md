@@ -2,6 +2,10 @@
 
 Journal of my learning progress in blockchain  
 
+#### April 27, 2022 (Day 113): UniSwap Algorithm  
+
+Learned about Uniswap algorithm, AMM, and Liquidity Providers. Need to learn more  
+
 #### April 26, 2022 (Day 112): Quickswap Interface  
 
 Paused the work on ICO. Started implementing interface of QuickSwap  
