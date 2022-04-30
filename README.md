@@ -1,4 +1,6 @@
-# Proof of Passion (Blockchain)
+# Proof of Passion (Blockchain)  
+
+## April 30 (day 116): Achieved a milestone on April 28, celebrating by taking a few days off  
 
 Journal of my learning progress in blockchain  
 
