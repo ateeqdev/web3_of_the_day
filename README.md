@@ -1,8 +1,16 @@
 # Proof of Passion (Blockchain)  
 
+Journal of my learning progress in blockchain  
+
+**June 8 update**: I am full time working on blockchain (yayy!) and may not find time to update this repo  
+Learning & publishing helped me keep disciplined and pushed me to learn every day
+
+#### June 8 (day 117): Created a tiny tiny metaverse  
+
+Created a tiny metaverse with only 12 nfts. Check it [here](https://ateeqdev.github.io/metaversev0.1/)
+
 ## April 30 (day 116): Achieved a milestone on April 28, celebrating by taking a few days off  
 
-Journal of my learning progress in blockchain  
 
 #### April 27, 2022 (Day 113): UniSwap Algorithm  
 
